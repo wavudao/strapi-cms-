@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/provider-upload-aws-s3": "^4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.35",
+    "pg": "^8.6.0",
+    "strapi-plugin-passwordless": "^4.0.8"
+  },
+  "name": "nile-capital",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5de2ab53-c338-4a12-9bd2-3f7792272e3f",
+    "template": "@strapi/template-blog@1.0.0"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
